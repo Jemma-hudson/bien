@@ -7,6 +7,9 @@ class Review < ApplicationRecord
   geocoded_by :address
   after_validation :geocode
 
+  #add the phto uploader
+  mount_uploader :photo, PhotoUploader
+
   validates :title, presence: true
   validates :body, length: {minimum: 10}
   validates :score, numericality: {only_integer: true,

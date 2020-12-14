@@ -44,6 +44,18 @@ gem "active_link_to"
 #make sure no one is swearing
 gem "profanity_filter"
 
+# lets add uploading filters
+gem 'carrierwave', '~> 2.0'
+gem 'mini_magick'
+
+
+#add admin panel
+gem 'activeadmin'
+gem 'devise'
+gem 'cancancan'
+gem 'draper'
+gem 'pundit'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 

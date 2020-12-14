@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+<!--
+<% if @content.image.present? %>
+<%= image_tag (@content.image.url) if @content.image_url %>
+<% end %>
+<h1><%= @content.title %></h1> -->
